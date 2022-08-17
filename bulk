@@ -1,0 +1,151 @@
+{'recipient': {'id': '4382823665108306'}, 'message': {'attachment': {'type': 'file', 'payload': {'url': 'https://doc-0s-2s-apps-viewer.googleusercontent.com/viewer/secure/pdf/0cvn0tlkqa4e3na8msafb1qq0klg8jbi/7h8hvtd265jldr03gai5lpfjjfbaglkg/1633795725000/drive/06943694998802854373/ACFrOgBEzYyBodHWkqUyExaMXmbpsrRx8OmD_zHh-ACqO3xnjtOBTwjq5A0xnOQzOQDP8RpQjH-gF-pI7fJFyNAcwdjC0ttKKqmgGyTYfRyUhMQq1CghTJmypUz5jnbzfwHLPlkbCB3PHquCWwzc?print=true&nonce=ic9mr45ajq166&user=06943694998802854373&hash=svt3db9ma5f3c9644hrgac540tclrqjb', 'is_reusable': 'true'}}}}
+
+
+data = {
+    'recipient': {'id': sender_id},
+    'message': {
+        'attachment': {
+            'type': 'template',
+            'payload': {
+                'template_type': 'generic',
+                'elements': [
+                    {
+                        'title': 'Welcome!',
+                        'image_url': 'https://4.bp.blogspot.com/-TNeiPeaE9a4/X_iEGiyzQJI/AAAAAAAAAMQ/sWuRoW1nP7wKMybUcNaAikKrzOWULmlXgCK4BGAYYCw/s244/logo-v3.png',
+                        'subtitle': 'AtharizzBetta is Betta Breeder - Area 6',
+                        'default_action': {
+                            'type': 'web_url',
+                            'url': 'https://atharizzbetta.blogspot.com/p/about-us.html',
+                            'messenger_extensions': 'false',
+                            'webview_height_ratio': 'tall',
+                            'fallback_url': 'https://atharizzbetta.blogspot.com/'
+                        },
+                        'buttons': [
+                            {
+                                'type': 'web_url',
+                                'url': 'https://atharizzbetta.blogspot.com/',
+                                'title': 'View Website'
+                            },
+                            {
+                                'type': 'web_url',
+                                'title': 'Start Chatting',
+                                'url': 'https://api.whatsapp.com/send?phone=6285282793816'
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
+
+https://1.bp.blogspot.com/-epBFz5TdmXk/YCQlXYID2hI/AAAAAAAAAPM/2L_QXRZQLbM_vPaDF85lDR3y1tHkQ78lACLcBGAsYHQ/s320/giant-01.jpg
+
+https://web.facebook.com/photo.php?fbid=113532743640635&set=pb.100049517302876.-2207520000..&type=3
+
+https://www.tokopedia.com/proweb21/ikan-cupang-giant-multicolor
+
+
+{
+  "recipient":{
+    "id":"<PSID>"
+  },
+  "message":{
+    "attachment": {
+      "type": "template",
+      "payload": {
+         "template_type": "media",
+         "elements": [
+            {
+               "media_type": "<image|video>",
+               "url": "<FACEBOOK_URL>",
+               "buttons": [
+                 {
+                    "type": "web_url",
+                    "url": "<WEB_URL>",
+                    "title": "View Website",
+                 }
+              ]
+            }
+         ]
+      }
+    }
+  }
+}
+
+
+{
+    'attachment': {
+        'type': 'template',
+        'payload': {
+            'template_type': 'template',
+            'elements': [
+                'media_type': 'image',
+                'url': 'https://web.facebook.com/photo.php?fbid=113532743640635&set=pb.100049517302876.-2207520000..&type=3',
+                'buttons': [
+                    'type': 'web_url',
+                    'url': 'https://www.tokopedia.com/proweb21/ikan-cupang-giant-multicolor',
+                    'title': 'Buy Now',
+                ]
+            ]
+        }
+    }
+}
+
+{
+    'attachment': {
+        'type': 'template',
+        'payload': {
+            'template_type': 'template',
+            'elements': [
+                'media_type': 'image',
+                'url': 'https://web.facebook.com/photo.php?fbid=113532743640635&set=pb.100049517302876.-2207520000..&type=3',
+                'buttons': [
+                    'type': 'web_url',
+                    'url': 'https://www.tokopedia.com/proweb21/ikan-cupang-giant-multicolor',
+                    'title': 'Buy Now',
+                ]
+            ]
+        }
+    }
+}
+
+{
+    'attachment': {
+        'type': 'template',
+        'payload': {
+            'template_type': 'template',
+            'elements': [
+            {
+                'media_type': 'image',
+                'url': 'https://web.facebook.com/photo.php?fbid=113532743640635&set=pb.100049517302876.-2207520000..&type=3',
+                'buttons': [
+                    {
+                        'type': 'web_url',
+                        'url': 'https://www.tokopedia.com/proweb21/ikan-cupang-giant-multicolor',
+                        'title': 'BuyNow'
+                    }]
+            }]
+        }
+    }
+}
+
+{
+    "attachment": {
+    "type": "template",
+    "payload": {
+        "template_type": "media",
+        "elements": [
+            {
+            "media_type": "image",
+            "url": "https://web.facebook.com/photo.php?fbid=113532743640635&set=pb.100049517302876.-2207520000..&type=3",
+            "buttons": [
+                {
+                "type": "web_url",
+                "url": "https://www.tokopedia.com/proweb21/ikan-cupang-giant-multicolor",
+                "title": "BuyNow"
+                }]
+            }]
+        }
+    }
+}
